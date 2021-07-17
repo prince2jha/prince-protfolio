@@ -16,6 +16,7 @@ function Projects() {
                     );   
                 })}
             </div>
+            <div className="morebtn"><a href="#"><i class="fi-rr-plus"></i></a></div>
         </section>
     );
 }

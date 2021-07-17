@@ -8,10 +8,10 @@ function ProjectCard(project) {
                 <label className="project-title">{project.projectinfo[0]}</label>
                 <img src={project.proimg} className="project-image"/>
                 <div className="project-links">
-                    {project.projectinfo[1]&&<a className="project-link" href={project.projectinfo[1]}>
+                    {project.projectinfo[1]&&<a className="project-link" href={project.projectinfo[1]} target="_blank">
                         <div className="link-btn"><i class="fi-rr-globe"></i>Demo</div>
                     </a>}
-                    {project.projectinfo[2]&&<a className="project-link" href={project.projectinfo[2]}>
+                    {project.projectinfo[2]&&<a className="project-link" href={project.projectinfo[2]} target="_blank">
                         <div className="link-btn"><i class="devicon-github-original"></i>GitHub</div>
                     </a>}
                     

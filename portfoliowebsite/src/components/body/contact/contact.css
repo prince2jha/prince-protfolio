@@ -1,0 +1,206 @@
+.contact{
+    text-align: center;
+    margin: 2rem 0;
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: cornflowerblue; */
+    overflow: hidden;
+}
+.section-title{
+    color: #555;
+}
+.contact-part-title{
+    color: #555;
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    margin:  0 auto;
+    /* background-color: aqua; */
+}
+
+.address-part{
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+    background-image: url('https://64.media.tumblr.com/e2ebfdac3317e8b98de82d50e105fae9/tumblr_mi7izyalKT1rn9vmdo1_500.gifv');
+    /* background-image: url('https://i1.wp.com/media.giphy.com/media/tNwsGc6wB5okw/giphy.gif'); */
+    /* background-image: url('https://i.gifer.com/ZJF0.gif'); */
+    /* background-image: url('https://media.giphy.com/media/3o7qEafilDT4pzfniM/giphy.gif'); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.22rem;
+    position: relative;
+    /* margin: 0 auto; */
+    z-index: -10;
+}
+.address-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255,.5);
+    z-index: -2;
+}
+.address-part-container{
+    margin: 2rem;
+    width: 60%;
+}
+.address-part-container>*{
+    margin: 1rem 0;
+    text-align: left;
+    color: #333;
+}
+.address-part-container a{
+    text-decoration: none;
+    color: #333;
+}
+.address-part-container i,.address-part-container a i{
+    margin-right: 10px;
+    color: coral;
+}
+
+.contact-part{
+    width: 100%;
+    /* background-color: rgba(255, 127, 80,.4); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-part-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.form-container{
+    width: 60%;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 2rem 0;
+    color: coral;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+::placeholder{
+    color: coral;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.form input{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0px -2px 20px rgb(255, 255, 255),
+				0px 2px 10px rgba(0, 0, 0, 0.18);
+                color: coral;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+textarea{
+    margin-bottom: 1rem;
+    resize: none;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    box-shadow: 0px -2px 20px rgb(255, 255, 255),
+				0px 2px 10px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    color: coral;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.form input.submitbtn{
+    
+    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.15),
+				5px -5px 10px rgb(255, 255, 255),
+                inset 5px -5px 10px rgba(0, 0, 0, 0.1),
+				inset -5px 5px 10px rgb(255, 255, 255);
+    background-color: #fff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+}
+.form input.submitbtn:hover,.form input.submitbtn:focus,.form input.submitbtn:active{
+    box-shadow: 0px -2px 20px rgb(255, 255, 255),
+				0px 2px 10px rgba(0, 0, 0, 0.15),
+                inset 0px -2px 10px rgb(255, 255, 255),
+				inset 0px 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+@media only screen and (max-width: 786px) {
+    .contact{
+        height: auto;
+    }
+   .contact-container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 1rem;
+    } 
+    .address-part{
+        background-size: cover;
+        height: 80vh;
+    }
+    .address-part-container{
+        margin: 0 auto;
+        width: 80%;
+        font-size: 1.2rem;
+        /* background-color: cyan; */
+    }
+    .contact-part{
+    }
+    .form-container{
+        width: 90%;
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 340px){
+    .address-part-container{
+        width: 80%;
+        height: 60%;
+        font-size: .9rem;
+    }
+    .address-part{
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        /* padding: 1rem; */
+        margin: 0 auto;
+    }
+    .contact-part{
+        width: 100%;
+        /* padding: 1rem; */
+    }
+    .form-container{
+        width: 80%;
+        margin: 0 10px;
+    }
+    .form input{
+        font-size: 1rem;
+        padding: 5px 10px;
+        width: 80%;
+        /* margin: 10px auto; */
+    }
+    textarea{
+        font-size: .9rem;
+        padding: 5px 10px;
+        width: 80%;
+    }
+    .submitbtn{
+        margin: 10px auto;
+    }
+}

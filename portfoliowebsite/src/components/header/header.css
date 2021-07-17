@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px 30px;
+    position: relative;
+    align-items: center;
+    /* background-color: cornsilk; */
+}
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    
+}
+.menu-icon{
+    font-size: 24px;
+}
+.mobile-menu{
+    display: none;
+}
+.web-menu{
+    display: flex;
+}
+.logo{
+    display: flex;
+    font-size: 2.4rem;
+    font-family: 'Dr Sugiyama', cursive;
+    transform: rotateZ(-5deg);
+    color: coral;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 786px){
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+}

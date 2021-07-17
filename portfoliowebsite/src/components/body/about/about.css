@@ -1,0 +1,186 @@
+
+.about{
+    color: #fff;
+    width: 100%;
+    height: 80%;
+    
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 127, 80,.85);
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
+.about-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* background-color: beige; */
+}
+.about-info{
+    width: 80%;
+    font-size: .7rem;
+    
+}
+.about-info .hi{
+    word-spacing: 5px;
+    letter-spacing: 8px;
+    transition-delay:.2s; 
+    transition:1s ease in;
+    animation: txtFlyIn 1s linear;
+}
+.about-info .name{
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: 8px;
+    transition-delay:.2s; 
+    transition:.4s ease in;
+    animation: txtName 1s linear; 
+
+}
+.about-info .profession{
+    letter-spacing: 3px;
+}
+@keyframes txtName{
+    0% { 
+        margin-left: 2rem;
+        letter-spacing: normal; 
+    } 
+    100% { 
+        margin-left: 0;
+        letter-spacing: 8px; 
+    }
+}
+@keyframes txtFlyIn{
+    0% { transform:scale(1); }
+    50% { transform:scale(1.2); }
+    100% { transform:scale(1); }
+}
+
+
+.about-bottom{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-pic{
+    width: 50%;
+    height: 50%;   
+}
+.picture{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    /* filter: grayscale(100%); */
+    transition-delay:3s; 
+    transition:3s ease in;
+    animation: fadeIn 3s linear;
+}
+@keyframes fadeIn{
+    0% { opacity:0;}
+    100% { opacity:1;}
+}
+.social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+}
+.hire-resume-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
+    /* background-color: blue; */
+}
+
+.hire-resume-btn a{
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.5rem 1.2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hire-resume-btn a i{
+    margin: 0 5px;
+}
+.hire{
+    background-color: #f5f5f5;
+    color: coral;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+}
+.hire i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hire:hover{
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    background-color: transparent;
+}
+.resume{
+    color: #f5f5f5;
+    border: 2px solid #f5f5f5;
+    background-color: transparent;
+    transition: all .3s ease;
+}
+.resume:hover{
+    background-color: #f5f5f5;
+    color: coral;
+    border: 2px solid transparent;
+    transition: all .3s ease;
+}
+@media only screen and (max-width:786px){
+    .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 80px 0;
+    }
+    .about-top{
+        width: 80%;
+    }
+    .about-info{
+        letter-spacing: normal;
+        word-spacing: normal;
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .about-info .hi{
+        font-size: .7rem;
+    }  
+    .about-info .name{
+        /* font-size: 1.2rem; */
+    }  
+    .social{
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+}
+@media only screen and (max-width:420px){
+    .hire-resume-btn{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .hire{
+        margin-bottom: 1rem;
+    }
+    .resume{
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,83 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    
+    /* width: 100%; */
+}
+.footer-container{
+    width: 80%;
+    height: auto;
+    /* background-color: aqua; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo-link{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.footer-social{
+    /* min-width: 200px; */
+    /* width: 80%; */
+    /* margin-top: 1rem; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.footer-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-family: 'Dr Sugiyama', cursive;
+    font-size: 2rem;
+    flex:1;
+    /* margin-top: 1rem; */
+}
+.footer-logo img{
+    width: 2.5rem;
+    margin-right:.8rem;
+}
+.rights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+@media only screen and (max-width:786px){
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-logo{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .rights{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-social{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width:340px){
+
+}

@@ -1,0 +1,26 @@
+.web{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.web-option{
+    font-size: 1.2rem;
+    margin-right: 16px;
+}
+.web-option a{
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    transition: all .3s ease-in;
+}
+.web-option a:hover{
+    color: coral;
+}
+.web-option:last-child{
+    margin-right: 0;
+}
+.web-option a i{
+    margin-right:5px;
+}

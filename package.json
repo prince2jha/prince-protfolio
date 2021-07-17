@@ -1,5 +1,6 @@
 {
   "name": "portfoliowebsite",
+  "homepage": "https://prince2jha.github.io/prince-protfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

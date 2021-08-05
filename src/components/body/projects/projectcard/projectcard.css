@@ -93,10 +93,7 @@ label.tag{
     
 }
 @media only screen and (max-width:786px){
-    .project-card{
-        /* margin: 0 auto; */
-        /* width: 60%; */
-    }
+    
 }
 @media only screen and (max-width:300px){
     .project-tags{

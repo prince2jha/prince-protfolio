@@ -107,7 +107,7 @@ const ProjectData = [
         demo: 'https://modal-window-project.netlify.app/',
         github: 'https://github.com/prince2jha/modal-window',
         image: 'https://image.freepik.com/free-vector/online-class-meet-concept_202271-697.jpg',
-        category:"React",
+        category:"JavaScript",
     },
     {
         id:11,
@@ -137,7 +137,27 @@ const ProjectData = [
         demo: '',
         github: '',
         image: 'https://image.freepik.com/free-vector/online-class-meet-concept_202271-697.jpg',
-        category:"React",
+        category:"JavaScript",
+    },
+    {
+        id:14,
+        title: 'Tic Tac Toe Game',
+        about: 'Tic-tac-toe game played by 2 players and can keep records in local storage.',
+        tags: ['javascript','html','css'],
+        demo: 'https://tic-tac-toe-injs.netlify.app/',
+        github: 'https://github.com/prince2jha/tic-tac-toe-game',
+        image: 'https://image.freepik.com/free-vector/online-class-meet-concept_202271-697.jpg',
+        category:"JavaScript",
+    },
+    {
+        id:15,
+        title: 'Neomorphic Calculator',
+        about: 'Tic-tac-toe game played by 2 players and can keep records in local storage.',
+        tags: ['javascript','html','css'],
+        demo: 'https://neomorphic-calculator.netlify.app/',
+        github: 'https://github.com/prince2jha/neomorphic-calculator',
+        image: 'https://image.freepik.com/free-vector/online-class-meet-concept_202271-697.jpg',
+        category:"JavaScript",
     },
 ];
 

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/prince-protfolio/static/css/main.88fc42ec.chunk.css",
-    "main.js": "/prince-protfolio/static/js/main.f8a21acf.chunk.js",
-    "main.js.map": "/prince-protfolio/static/js/main.f8a21acf.chunk.js.map",
-    "runtime-main.js": "/prince-protfolio/static/js/runtime-main.e6fcba42.js",
-    "runtime-main.js.map": "/prince-protfolio/static/js/runtime-main.e6fcba42.js.map",
-    "static/js/2.be38499c.chunk.js": "/prince-protfolio/static/js/2.be38499c.chunk.js",
-    "static/js/2.be38499c.chunk.js.map": "/prince-protfolio/static/js/2.be38499c.chunk.js.map",
-    "static/js/3.af13665c.chunk.js": "/prince-protfolio/static/js/3.af13665c.chunk.js",
-    "static/js/3.af13665c.chunk.js.map": "/prince-protfolio/static/js/3.af13665c.chunk.js.map",
+    "main.css": "/prince-protfolio/static/css/main.06d8d72a.chunk.css",
+    "main.js": "/prince-protfolio/static/js/main.3c618bc5.chunk.js",
+    "main.js.map": "/prince-protfolio/static/js/main.3c618bc5.chunk.js.map",
+    "runtime-main.js": "/prince-protfolio/static/js/runtime-main.f03c0016.js",
+    "runtime-main.js.map": "/prince-protfolio/static/js/runtime-main.f03c0016.js.map",
+    "static/js/2.64fc2ab3.chunk.js": "/prince-protfolio/static/js/2.64fc2ab3.chunk.js",
+    "static/js/2.64fc2ab3.chunk.js.map": "/prince-protfolio/static/js/2.64fc2ab3.chunk.js.map",
+    "static/js/3.9973d8e8.chunk.js": "/prince-protfolio/static/js/3.9973d8e8.chunk.js",
+    "static/js/3.9973d8e8.chunk.js.map": "/prince-protfolio/static/js/3.9973d8e8.chunk.js.map",
     "index.html": "/prince-protfolio/index.html",
-    "static/css/main.88fc42ec.chunk.css.map": "/prince-protfolio/static/css/main.88fc42ec.chunk.css.map",
-    "static/js/2.be38499c.chunk.js.LICENSE.txt": "/prince-protfolio/static/js/2.be38499c.chunk.js.LICENSE.txt",
+    "static/css/main.06d8d72a.chunk.css.map": "/prince-protfolio/static/css/main.06d8d72a.chunk.css.map",
+    "static/js/2.64fc2ab3.chunk.js.LICENSE.txt": "/prince-protfolio/static/js/2.64fc2ab3.chunk.js.LICENSE.txt",
     "static/media/github.svg": "/prince-protfolio/static/media/github.d156483e.svg",
     "static/media/instagram.svg": "/prince-protfolio/static/media/instagram.157c1716.svg",
     "static/media/linkedin.svg": "/prince-protfolio/static/media/linkedin.823da246.svg",
     "static/media/me.png": "/prince-protfolio/static/media/me.520f4415.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6fcba42.js",
-    "static/js/2.be38499c.chunk.js",
-    "static/css/main.88fc42ec.chunk.css",
-    "static/js/main.f8a21acf.chunk.js"
+    "static/js/runtime-main.f03c0016.js",
+    "static/js/2.64fc2ab3.chunk.js",
+    "static/css/main.06d8d72a.chunk.css",
+    "static/js/main.3c618bc5.chunk.js"
   ]
 }

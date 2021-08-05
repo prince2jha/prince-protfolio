@@ -24,6 +24,9 @@ function Body() {
             <section id="contact">
                 <Contact/>
             </section>
+            <div className="top-nav">
+                <button onClick={()=>window.scroll(0,0)} className="top-nav-btn"><i className="fi-rr-rocket"></i></button>
+            </div>
         </div>
     );
 }

@@ -10,7 +10,7 @@ html{
     /* background-color: thistle; */
     /* transition: all .3s ease-in; */
 }
-a{
+a,button,input[type=submit]{
     cursor: pointer;
 }
 .morebtn{

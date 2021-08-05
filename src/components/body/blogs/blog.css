@@ -2,6 +2,7 @@
     width: 100%;
     min-height: 100vh;
     text-align: center;
+    letter-spacing: 1px;
 }
 .blog-container{
     width: 100%;
@@ -22,6 +23,7 @@
 }
 .blog-card{
     width: 80%;
+    /* height: 40vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +49,7 @@
     justify-content: center;
     align-items: center;
     color: #444;
+    
 }
 .content-container{
     width: 80%;
@@ -60,6 +63,57 @@
 }
 .inner-content{
     text-align: start;
+    overflow: hidden;
+    height: auto;
+    /* text-overflow:ellipsis;
+    white-space:nowrap; */
+    display: -webkit-box;
+   -webkit-line-clamp: 4; /* number of lines to show */
+   -webkit-box-orient: vertical;
+   
+}
+.read{
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px rgba(99, 145, 245,.1),
+				5px -5px 10px rgb(255, 255, 255),
+                inset 5px -5px 10px rgba(99, 145, 245,.2),
+				inset -5px 5px 10px rgb(255, 255, 255);
+    border: 1px solid #fff;
+    color: #ff7f50;
+    transition: all .3s ease;
+    font-size: .9rem;
+}
+.read:hover{
+    box-shadow: 0px -2px 20px rgb(255, 255, 255),
+				0px 2px 10px rgba(99, 145, 245,.1),
+                inset 0px -2px 10px rgb(255, 255, 255),
+				inset 0px 2px 10px rgba(99, 145, 245,.15);
+}
+.modal-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 2rem;
+    margin: 100px auto;
+}
+.modal-container i{
+    font-size: 10rem;
+    color: #ff7f50;
+}
+.modal-close-btn{
+    font-size: 1.5rem;
+    color: #ff7f50;
+    background-color: transparent;
+    border: 2px solid #ff7f50;
+    margin-top: 10px;
+    padding: 10px 20px;
 }
 @media only screen and (max-width:786px){
     .blog-card{

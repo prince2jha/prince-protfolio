@@ -338,6 +338,24 @@
     color: #444;
     padding: 10px;
 }
+.education-container ul li a{
+    text-decoration: none;
+    color: coral;
+}
+.education-container ul li a i{
+    animation: stretch  2s ease-out infinite;
+}
+@keyframes stretch {
+    0%{ 
+        margin-left: 5px;
+    }
+    50%{
+        margin-left: 15px;
+    }
+    100%{ 
+        margin-left: 5px;
+    }
+}
 .class-title{
     /* color: rgb(99, 145, 245); */
     color: rgba(255, 127, 80,.7);

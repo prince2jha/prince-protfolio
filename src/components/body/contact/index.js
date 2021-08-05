@@ -6,11 +6,50 @@ export default class Contact extends Component {
         super(props)
     
         this.state = {
-             name:'',
+             fullname:'',
              email:'',
+             subject:'',
              message:''
         };
 
+    }
+    // handleName=(event)=>{
+    //     this.setState({
+    //         name: event.target.value,
+    //     });
+    // }
+    // handleEmail=(event)=>{
+    //     this.setState({
+    //         email: event.target.value,
+    //     });
+    // }
+    // handleSubject=(event)=>{
+    //     this.setState({
+    //         subject: event.target.value,
+    //     });
+    // }
+    // handleMessage=(event)=>{
+    //     this.setState({
+    //         message: event.target.value,
+    //     });
+    // }
+    handleChangeAll=(event)=>{
+        this.setState({
+            [event.target.name]:event.target.value
+        });
+    }
+    handleSubmit=(event)=>{
+        // alert(this.state.name+this.state.email+this.state.subject+this.state.message)
+        // alert(JSON.stringify(this.state)); //to print every thing
+        if(this.state.fullname && this.state.email && this.state.subject && this.state.message){
+            alert("Thank you ");
+        }else{
+            alert("Please fill all the fields ");
+        }
+        event.preventDefault();
+        this.setState({
+            [event.target.value]:""
+        });
     }
     
     render() {
@@ -44,21 +83,21 @@ export default class Contact extends Component {
                     <div className="contact-part">
                         <div className="contact-part-title">Let's talk</div>
                         <div className='form-container'>
-                            <form className="form">
+                            <form className="form" onSubmit={this.handleSubmit}>
                                 
                                 <input
-                                    type="text" placeholder="name"
+                                    type="text" placeholder="name" value={this.state.fullname} name="fullname" onChange={this.handleChangeAll}
                                 />
                                 <input
-                                    type="email" placeholder="email address"
+                                    type="email" placeholder="email address"  value={this.state.email} name="email" onChange={this.handleChangeAll}
                                 />
                                 <input
-                                    type="text" placeholder="subject"
+                                    type="text" placeholder="subject" value={this.state.subject} name="subject" onChange={this.handleChangeAll}
                                 />
                                 <textarea
                                     rows="4"
                                     cols="30"
-                                    minlength="3" placeholder="message"
+                                    minlength="3" placeholder="message" value={this.state.message} name="message" onChange={this.handleChangeAll}
                                 />
                                 <input type="submit" value="Send" className="submitbtn" />
                             </form>

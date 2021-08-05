@@ -50,19 +50,19 @@ function Skills() {
                         <div className="education-container">
                             <ul>
                                 <li>
-                                    <div className="class-title"><i class="fi-rr-rocket"></i>SSC-(10th)</div>
+                                    <div className="class-title"><i class="fi-rr-graduation-cap"></i>SSC-(10th)</div>
                                     <div className="institute">Vivekanand Sankul High School</div>
                                     <div className="grades">66%</div>
                                 </li>
                                 <li>
                                     <div className="class-title">
-                                    <i class="fi-rr-rocket"></i>HSC-(12th)</div>
+                                    <i class="fi-rr-graduation-cap"></i>HSC-(12th)</div>
                                     <div className="institute">Terna Vidyalaya Jr. College</div>
                                     <div className="grades">53%</div>
                                 </li>
                                 <li>
                                     <div className="class-title">
-                                    <i class="fi-rr-rocket"></i>BSc.IT-(Graduation)</div>
+                                    <i class="fi-rr-graduation-cap"></i>BSc.IT-(Graduation)</div>
                                     <div className="institute">Smt. CHM College</div>
                                     <div className="grades">8.5 CGPA</div>
                                 </li>
@@ -70,23 +70,20 @@ function Skills() {
                         </div>
                     </div>
                     <div className="education">
-                        <div className="education-title">Experience</div>
+                        <div className="education-title">Other Interests</div>
                         <div className="education-container">
                             <ul>
                                 <li>
-                                    <div className="class-title"><i class="fi-rr-dart"></i>SSC-(10th)</div>
-                                    <div className="institute">Vivekanand Sankul High School</div>
-                                    <div className="grades">66%</div>
+                                    <div className="class-title"><i class="fi-rr-palette"></i>Logo Designing</div>
                                 </li>
                                 <li>
-                                    <div className="class-title"><i class="fi-rr-dart"></i>HSC-(12th)</div>
-                                    <div className="institute">Terna Vidyalaya Jr. College</div>
-                                    <div className="grades">53%</div>
+                                    <div className="class-title"><i class="fi-rr-palette"></i>Graphics Designing</div>
                                 </li>
                                 <li>
-                                    <div className="class-title"><i class="fi-rr-dart"></i>BSc.IT-(Graduation)</div>
-                                    <div className="institute">Terna Vidyalaya Jr. College</div>
-                                    <div className="grades">8.5 CGPA</div>
+                                    <div className="class-title"><i class="fi-rr-palette"></i>Business card Designing</div>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/d_designers_hub/" target="_blank">Check out my work here <i class="fi-rr-arrow-right"></i></a>
                                 </li>
                             </ul>
                         </div>

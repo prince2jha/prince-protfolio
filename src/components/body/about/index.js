@@ -15,7 +15,7 @@ function About() {
                     </div>
                     <div className="hire-resume-btn">
                         <a href="#contact" className="hire">Hire Me<i class="fi-rr-arrow-right" ></i></a>
-                        <a href="#" className="resume">Resume<i class="fi-rr-download"></i></a>
+                        <a href="https://drive.google.com/file/d/1gaE6BqGRxp1LUGpj6IzFe-Q_-qVz_73h/view?usp=sharing" className="resume" target="_blank">Resume<i class="fi-rr-download"></i></a>
                     </div>
                  </div>
                 </div>

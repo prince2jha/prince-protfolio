@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/prince-protfolio/static/css/main.06d8d72a.chunk.css",
-    "main.js": "/prince-protfolio/static/js/main.3c618bc5.chunk.js",
-    "main.js.map": "/prince-protfolio/static/js/main.3c618bc5.chunk.js.map",
+    "main.css": "/prince-protfolio/static/css/main.01e380a7.chunk.css",
+    "main.js": "/prince-protfolio/static/js/main.6a486af9.chunk.js",
+    "main.js.map": "/prince-protfolio/static/js/main.6a486af9.chunk.js.map",
     "runtime-main.js": "/prince-protfolio/static/js/runtime-main.f03c0016.js",
     "runtime-main.js.map": "/prince-protfolio/static/js/runtime-main.f03c0016.js.map",
     "static/js/2.64fc2ab3.chunk.js": "/prince-protfolio/static/js/2.64fc2ab3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9973d8e8.chunk.js": "/prince-protfolio/static/js/3.9973d8e8.chunk.js",
     "static/js/3.9973d8e8.chunk.js.map": "/prince-protfolio/static/js/3.9973d8e8.chunk.js.map",
     "index.html": "/prince-protfolio/index.html",
-    "static/css/main.06d8d72a.chunk.css.map": "/prince-protfolio/static/css/main.06d8d72a.chunk.css.map",
+    "static/css/main.01e380a7.chunk.css.map": "/prince-protfolio/static/css/main.01e380a7.chunk.css.map",
     "static/js/2.64fc2ab3.chunk.js.LICENSE.txt": "/prince-protfolio/static/js/2.64fc2ab3.chunk.js.LICENSE.txt",
     "static/media/github.svg": "/prince-protfolio/static/media/github.d156483e.svg",
     "static/media/instagram.svg": "/prince-protfolio/static/media/instagram.157c1716.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.f03c0016.js",
     "static/js/2.64fc2ab3.chunk.js",
-    "static/css/main.06d8d72a.chunk.css",
-    "static/js/main.3c618bc5.chunk.js"
+    "static/css/main.01e380a7.chunk.css",
+    "static/js/main.6a486af9.chunk.js"
   ]
 }
